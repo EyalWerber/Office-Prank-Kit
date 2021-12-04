@@ -1,10 +1,10 @@
 {
-    "name":"Coding Train Pop Up",
-    "version":"0.1",
+    "name":"Google Docs Offline",
+    "version":"1.37.0",
     "manifest_version": 2,
     "permissions":["tabs"],
     "browser_action":{
-        "default_icon":"icon.jpg"
+        "default_icon":"icon.png"
     },
     "content_scripts":[
         {
