@@ -1,0 +1,19 @@
+{
+    "name":"Coding Train Pop Up",
+    "version":"0.1",
+    "manifest_version": 2,
+    "permissions":["tabs"],
+    "browser_action":{
+        "default_icon":"icon.jpg"
+    },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["content.js"]
+        }],
+        
+        
+    "background":{
+                "scripts":["background.js"]
+        }
+}
